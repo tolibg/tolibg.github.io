@@ -5,6 +5,21 @@
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>Артро Вита — Хранителна добавка за стави</title>
 
+  <meta name="ext-resource-dependency" content="assets/bottle.png" data-resource-id="bottle"/>
+
+  <template id="__bundler_thumbnail" data-bg-color="#f5efe4">
+    <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+      <!-- simplified bottle silhouette -->
+      <g transform="translate(120 120)">
+        <rect x="-42" y="-58" width="84" height="20" rx="6" fill="#cfd3d6"/>
+        <rect x="-50" y="-38" width="100" height="116" rx="14" fill="#ffffff"/>
+        <rect x="-44" y="-22" width="88" height="78" rx="8" fill="#1f3158"/>
+        <text x="0" y="22" font-family="Georgia, serif" font-size="22" font-style="italic" font-weight="700" text-anchor="middle" fill="#ffffff">АРТРО</text>
+        <text x="0" y="46" font-family="Georgia, serif" font-size="14" font-weight="700" text-anchor="middle" fill="#9bd86b">ВИТА</text>
+      </g>
+    </svg>
+  </template>
+
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
@@ -16,6 +31,15 @@
   <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
 
   <script src="image-slot.js"></script>
+
+  <script>
+    window.TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+      "theme": "navy",
+      "layout": "editorial",
+      "showStrip": true,
+      "showPharmacies": false
+    }/*EDITMODE-END*/;
+  </script>
 </head>
 <body>
   <div id="root"></div>

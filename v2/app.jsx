@@ -109,8 +109,8 @@ function Hero({ showStrip = true }) {
         </div>
 
         <div className="hero__visual">
-          <span className="hero__visual-label">▣ product shot</span>
-          <image-slot id="hero-product" shape="rounded" radius="28" placeholder="Снимка на продукта (бурканче / капсули)"></image-slot>
+          <span className="hero__visual-label">▣ ARTRO VITA · 60 CAPS</span>
+          <img className="hero__bottle" src="assets/bottle.png" alt="Артро Вита — 60 капсули"/>
           <div className="hero__visual-tag">
             <span>Произведено в България · ЕС регламент 1169/2011</span>
           </div>
@@ -257,7 +257,7 @@ function Dosage() {
         <div className="dosage__inner">
           <div className="dosage__visual">
             <div className="corner"><Ico.Pill/></div>
-            <image-slot id="dosage-product" shape="rounded" radius="28" placeholder="Капсула отблизо или ритуал-настроение"></image-slot>
+            <img className="dosage__bottle" src="assets/bottle.png" alt="Артро Вита"/>
           </div>
           <div>
             <span className="eyebrow">Как се приема</span>
